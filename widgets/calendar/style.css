@@ -9,7 +9,7 @@ html {
   }
   
   body {
-	background-color: #A9DDEB;
+	background-color: #191919;
 	display: grid;
 	font-family: Helvetica, sans-serif;
 	font-size: 1.6rem;
@@ -18,12 +18,12 @@ html {
   }
   
   .calendar {
-	background-color: #FFF;
+	background-color: #262626;
 	border-radius: 0.8rem;
-	box-shadow: 0 0.8rem 1.6rem rgba(35, 131, 157, 0.2);
 	padding: 3.2rem;
   }
   .calendar__header {
+	color: #e0e0e0;
 	font-weight: bold;
 	display: flex;
 	justify-content: space-between;
@@ -32,7 +32,7 @@ html {
 	text-transform: uppercase;
   }
   .calendar__day-names {
-	border-bottom: 0.1rem solid #828889;
+	border-bottom: 0.1rem solid #e0e0e0;
 	display: flex;
 	gap: 1.2rem;
 	margin-bottom: 0.8rem;
@@ -40,7 +40,7 @@ html {
   }
   .calendar__day-name {
 	aspect-ratio: 1;
-	color: #828889;
+	color: #e0e0e0;
 	font-weight: normal;
 	text-align: center;
 	width: 2.4rem;
@@ -61,15 +61,13 @@ html {
 	align-content: center;
 	justify-content: center;
 	aspect-ratio: 1;
-	color: #000;
+	color: #e0e0e0;
 	display: flex;
 	line-height: 1.4;
 	text-align: center;
 	width: 2.4rem;
   }
   .calendar__day-number--current {
-	background-color: #23839D;
-	border-radius: 50%;
-	box-shadow: 0 0 0 0.4rem #23839D;
-	color: #FFF;
+	background-color: #6900af;
+	color: #e0e0e0;
   }
