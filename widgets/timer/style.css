@@ -17,7 +17,7 @@
   .countdown-container {
 	text-align: center;
 	background-color: #262626;
-	padding: 50px;
+	padding: 20px;
 	border-radius: 15px;
 	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 	width: 100%;
@@ -26,7 +26,7 @@
   
   h1 {
 	font-size: 36px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	color: #8521ff;
 	letter-spacing: 1.5px;
   }
@@ -34,17 +34,18 @@
   #timer {
 	display: flex;
 	justify-content: space-between;
+	flex-direction: row;
   }
   
   .time-section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 15px;
+	padding: 5px;
   }
   
   .time-number {
-	font-size: 64px;
+	font-size: 48px;
 	font-weight: bold;
 	color: #e0e0e0;
 	transition: all 0.3s ease;
